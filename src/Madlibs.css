@@ -1,0 +1,23 @@
+.Madlibs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Madlibs-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Story {
+  width: 430px;
+  border-radius: 12px;
+  overflow: auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
