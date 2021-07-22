@@ -3,10 +3,8 @@ import StoryForm from "./StoryForm";
 import StoryChoices from "./StoryChoices";
 import "./Madlibs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBookReader } from "@fortawesome/free-solid-svg-icons";
 import { faChild } from "@fortawesome/free-solid-svg-icons";
 
-// const bookIcon = <FontAwesomeIcon icon={faBookReader} size="5x" />;
 const bookIcon = <FontAwesomeIcon icon={faChild} size="5x" />;
 
 
