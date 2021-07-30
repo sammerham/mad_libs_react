@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import StoryForm from "./StoryForm";
 import StoryChoices from "./StoryChoices";
 import "./Madlibs.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faChild } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChild } from "@fortawesome/free-solid-svg-icons";
 
-// const bookIcon = <FontAwesomeIcon icon={faChild} size="5x" />;
+const childIcon = <FontAwesomeIcon icon={faChild} size="5x" />;
 
 
 function Madlibs() {
@@ -43,7 +43,7 @@ function Madlibs() {
     <div className="Madlibs">
       <div className="d-flex flex-column align-items-center justify-content-center mt-5 mb-3">
         <h1>Madlibs!</h1>
-        {/* <div className="my-1">{bookIcon}</div> */}
+        <div className="my-1">{childIcon}</div>
 
       </div>
 
