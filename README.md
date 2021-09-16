@@ -1,4 +1,4 @@
-# mad_libs_react
+# Mad Libs
 # Getting Started with Create React App
 
 ## Available Scripts
